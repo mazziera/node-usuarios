@@ -1,0 +1,21 @@
+{
+  "name": "projeto-usuario-nodejs",
+  "version": "1.0.0",
+  "description": " Simulando uma aplicação frontend interagindo com um banco de dados. Criando, buscando, atualizando e deletando um usuario.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "Raphael Mazzieri",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
